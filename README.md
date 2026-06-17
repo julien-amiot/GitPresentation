@@ -963,38 +963,7 @@ git log -p -- path/to/YOUR-SKILL.md
 
 ---
 
-## 9.2 — Git vs. Agile: The Analogy Map
-
-```mermaid
-flowchart LR
-    subgraph "🏃 Agile World"
-        A1["Product Backlog\n(main branch)"]
-        A2["Sprint branch\n(feature branch)"]
-        A3["Definition of Done\n(PR approval)"]
-        A4["Sprint Review\n(code review)"]
-        A5["Release\n(tag / GitHub Release)"]
-        A6["Audit Trail\n(git log)"]
-    end
-    subgraph "🌿 Git / GitHub World"
-        G1["main"]
-        G2["feat/my-feature"]
-        G3["Merge allowed"]
-        G4["PR comments"]
-        G5["v1.0 tag"]
-        G6["git log --oneline"]
-    end
-
-    A1 --- G1
-    A2 --- G2
-    A3 --- G3
-    A4 --- G4
-    A5 --- G5
-    A6 --- G6
-```
-
----
-
-## 9.3 — The Full Day-to-Day Workflow
+## 9.2 — The Full Day-to-Day Workflow
 
 ```mermaid
 flowchart TD
